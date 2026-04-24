@@ -1,0 +1,36 @@
+# PHP / Composer
+/vendor/
+.env
+.env.local
+.env.*.local
+
+# Node / Mobile App
+mobile-app/node_modules/
+mobile-app/.expo/
+mobile-app/dist/
+mobile-app/web-build/
+mobile-app/expo-env.d.ts
+mobile-app/npm-debug.*
+mobile-app/yarn-debug.*
+mobile-app/yarn-error.*
+
+# Native (iOS/Android inside mobile-app)
+mobile-app/*.jks
+mobile-app/*.p8
+mobile-app/*.p12
+mobile-app/*.key
+mobile-app/*.mobileprovision
+mobile-app/*.orig.*
+mobile-app/.kotlin/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project Specific
+/uploads/products/*
+!/uploads/products/.gitkeep
